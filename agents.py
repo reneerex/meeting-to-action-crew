@@ -16,7 +16,7 @@ meeting_summarizer=Agent(
     goal='Create a concise summary of the meeting.',
     llm=llm,
     verbose=True,
-    #memory=True,
+    memory=True,
     backstory="""
     You are an expert business analyst.
     You specialize in understanding meetings,
@@ -34,7 +34,7 @@ action_item_extractor=Agent(
     goal='Identify all tasks and action items mentioned.',
     llm=llm,
     verbose=True,
-    #memory=True,
+    memory=True,
     backstory="""
     You are an operations manager.
     Your job is to carefully identify every task,
@@ -51,7 +51,7 @@ owner_assigner=Agent(
     goal='Determine who is responsible for each action item.',
     llm=llm,
     verbose=True,
-    #memory=True,
+    memory=True,
     backstory="""
     You are a project coordinator.
     You specialize in mapping responsibilities
@@ -68,7 +68,7 @@ deadline_agent=Agent(
     goal='Identify deadlines and due dates.',
     llm=llm,
     verbose=True,
-    #memory=True,
+    memory=True,
     backstory="""
     You are a scheduling specialist.
     You identify deadlines,
@@ -86,7 +86,7 @@ report_generator=Agent(
     goal='Combine outputs into a structured report.',
     llm=llm,
     verbose=True,
-    #memory=True,
+    memory=True,
     backstory="""
     You are an executive assistant.
     Your responsibility is to prepare
