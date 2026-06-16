@@ -1,0 +1,248 @@
+Project Kickoff Meeting – Meeting-to-Action Demo
+
+Date: June 15, 2026
+
+Participants:
+Rahul (Project Manager)
+Priya (Backend Lead)
+Ankit (Frontend Developer)
+Sara (UI/UX Designer)
+Vikram (DevOps Engineer)
+
+Rahul:
+Thanks everyone for joining. The goal of today's meeting is to finalize our plan for the Customer Analytics Dashboard project. Management wants the first version ready before the end of this month.
+
+Sara:
+I've completed the initial wireframes. There are a few pending revisions based on stakeholder feedback, but the overall layout is finalized.
+
+Rahul:
+Great. When can the final designs be delivered?
+
+Sara:
+I can provide the final Figma designs by Wednesday evening.
+
+Rahul:
+Perfect. Ankit, when can frontend development begin?
+
+Ankit:
+As soon as Sara shares the final designs. I can start working on the dashboard screens Thursday morning.
+
+Rahul:
+What's your estimate?
+
+Ankit:
+About five working days for the core screens and charts.
+
+Rahul:
+Okay. Please target completion by June 24.
+
+Ankit:
+That works.
+
+Priya:
+On the backend side, we've already built most of the APIs. However, the customer segmentation endpoint still needs optimization.
+
+Rahul:
+How long will that take?
+
+Priya:
+Two days. I can finish it by Friday.
+
+Rahul:
+Please prioritize that because the dashboard depends on it.
+
+Priya:
+Understood.
+
+Vikram:
+I also want to mention that our staging environment needs upgrades. The database server is running an older version and we should update it before deployment.
+
+Rahul:
+What's required?
+
+Vikram:
+Roughly half a day of maintenance. I'll schedule it for Monday morning.
+
+Rahul:
+Sounds good.
+
+Sara:
+One concern from stakeholders was mobile responsiveness.
+
+Ankit:
+I've noted that. I'll implement responsive layouts alongside desktop views.
+
+Rahul:
+Let's make that a mandatory requirement.
+
+Priya:
+We also need analytics tracking. Product management requested event logging for dashboard usage.
+
+Rahul:
+Can you handle that?
+
+Priya:
+Yes. I'll add analytics events while updating the APIs.
+
+Rahul:
+Excellent.
+
+Vikram:
+Regarding deployment, I'd like a deployment rehearsal before production release.
+
+Rahul:
+Agreed. Let's schedule a dry run.
+
+Vikram:
+How about June 25 at 3 PM?
+
+Ankit:
+Works for me.
+
+Priya:
+Same here.
+
+Rahul:
+Okay, deployment rehearsal scheduled for June 25 at 3 PM.
+
+Sara:
+Should I attend as well?
+
+Rahul:
+Not required unless design issues arise.
+
+Ankit:
+One risk is the charting library. We're evaluating two options and performance testing is still pending.
+
+Rahul:
+Who owns that?
+
+Ankit:
+I'll perform benchmarking and select a library.
+
+Rahul:
+When?
+
+Ankit:
+By June 20.
+
+Rahul:
+Please document the results.
+
+Priya:
+Another item: security review. We should perform an API security audit before release.
+
+Rahul:
+Good point.
+
+Vikram:
+I can assist with that.
+
+Rahul:
+Priya and Vikram, please conduct the security review together.
+
+Priya:
+Sure.
+
+Vikram:
+No problem.
+
+Rahul:
+Target date?
+
+Priya:
+June 23.
+
+Rahul:
+Approved.
+
+Sara:
+I also need stakeholder sign-off on the final designs.
+
+Rahul:
+Let's arrange a design review session.
+
+Sara:
+Can we do it Thursday at 11 AM?
+
+Rahul:
+Yes. I'll invite stakeholders.
+
+Rahul:
+Action item for me: schedule stakeholder design review by Thursday 11 AM.
+
+Ankit:
+Will we have test users available?
+
+Rahul:
+Yes. Product management will provide five internal testers.
+
+Ankit:
+Great. I'll prepare a usability testing checklist.
+
+Rahul:
+Deadline?
+
+Ankit:
+June 22.
+
+Rahul:
+Noted.
+
+Vikram:
+I need database credentials from the infrastructure team.
+
+Rahul:
+I'll follow up with them.
+
+Vikram:
+I need them before Monday.
+
+Rahul:
+I'll send the request today.
+
+Priya:
+One final thing. We should prepare release notes before deployment.
+
+Rahul:
+Who can own that?
+
+Sara:
+I can draft the first version.
+
+Rahul:
+Excellent.
+
+Sara:
+I'll deliver release notes draft by June 26.
+
+Rahul:
+Perfect.
+
+Rahul:
+Let's summarize.
+
+Sara:
+Final designs due Wednesday evening.
+Release notes draft due June 26.
+
+Ankit:
+Frontend completion by June 24.
+Chart benchmarking by June 20.
+Usability testing checklist by June 22.
+
+Priya:
+API optimization by Friday.
+Analytics tracking implementation included.
+Security review by June 23.
+
+Vikram:
+Database upgrade Monday morning.
+Deployment rehearsal June 25 at 3 PM.
+Security review support by June 23.
+
+Rahul:
+I'll schedule the stakeholder review meeting for Thursday at 11 AM and request infrastructure credentials today.
+
+Rahul:
+Thanks everyone. We'll meet again after the deployment rehearsal on June 25.
